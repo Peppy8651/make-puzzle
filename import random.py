@@ -9,7 +9,7 @@ def get_valid_letters(puzzleString): # returns one string of 10 unique letters f
             letters += char # add this unique letter to the string list
     return letters
 
-# function 2
+# function 3
 def check_user_guess(dividend, quotient, divisor, remainder):
     '''Only returns true if the dividend is equal to the quotient * divisor + remainder.'''
     guessTrue = (dividend == quotient * divisor + remainder)
